@@ -1,0 +1,66 @@
+/* Общие стили */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+header {
+    background: #005f6b;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+header h1 {
+    margin-bottom: 10px;
+}
+h2, h3 {
+    color: #005f6b;
+    margin-bottom: 10px;
+}
+section {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Стили для списка */
+ul {
+    padding-left: 20px;
+    margin-top: 10px;
+    list-style-type: disc;
+}
+ul li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px
+}
+a {
+    color: #005f6b;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
