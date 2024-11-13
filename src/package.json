@@ -2,7 +2,7 @@
   "name": "otchet-uchebnaya-praktika",
   "version": "1.0.0",
   "description": "Сайт для отчета по учебной практике",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "start": "live-server",
     "build": "echo 'Build not required for static site'"
